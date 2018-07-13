@@ -6,8 +6,8 @@ import string
 import paramiko
 import time
 
-un = 'admin'
-pw = 'r3d3m3ta####'
+un = 'admin' #
+pw = input('Insira a Senha: ')
 ip = input('Insira o IP: ')
 
 #file = open('twomodebackup.txt', 'r')
