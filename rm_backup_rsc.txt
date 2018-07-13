@@ -1,0 +1,2 @@
+:foreach x in=[/file find] do={:if ([:typeof [:find [/file get $x name] ".rsc"]]!="nil") do={/file remove $x}}
+:foreach x in=[/file find] do={:if ([:typeof [:find [/file get $x name] ".backup"]]!="nil") do={/file remove $x}}
